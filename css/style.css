@@ -558,10 +558,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     background: #2E4E1E; }
   .hero h1 {
     color: #e2e606;
-    font-size: 60px; }
+    font-size: clamp (20px, 5vw, 60px;) }
     @media (max-width: 991.98px) {
       .hero h1 {
-        font-size: 45px; } }
+        font-size: clamp (20px, 5vw, 45px;) } }
     .hero h1 .typed-words {
       position: relative; }
       .hero h1 .typed-words:before {
