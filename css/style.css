@@ -3,7 +3,7 @@ body {
   line-height: 1.5;
   background: rgb(233, 232, 232);
   overflow-x: hidden;
-  font-size: clamp (5px, 4vw, 14px); }
+  font-size: clamp(5px, 4vw, 14px); }
   body:before {
     content: "";
     position: fixed;
@@ -172,13 +172,13 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   .site-nav h1 {
     margin: 0;
     padding: 0;
-    font-size: clamp (14px, 4vw, 24px); }
+    font-size: clamp(14px, 4vw, 24px); }
   .site-nav .site-navigation .site-menu {
     margin-bottom: 0; }
     .site-nav .site-navigation .site-menu > li {
       display: inline-block; }
       .site-nav .site-navigation .site-menu > li > a {
-        font-size: 14px;
+        font-size: clamp(5px, 2vw,14px);
         padding: 10px 15px;
         display: inline-block;
         text-decoration: none !important;
@@ -558,7 +558,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     background: #2E4E1E; }
   .hero h1 {
     color: #e2e606;
-    font-size: clamp (20px, 5vw, 60px); }
+    font-size: clamp(20px, 5vw, 60px); }
     @media (max-width: 991.98px) {
       .hero h1 {
         font-size: clamp (20px, 5vw, 45px;) } }
