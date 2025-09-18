@@ -153,7 +153,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   position: relative; }
 
 .logo {
-  font-size: clamp(20px, 2vw, 40px);
+  font-size: clamp(15px, 2vw, 40px);
   font-family:'Times New Roman', Times, serif;
   color: #e2e606;
   font-weight: 1000; }
@@ -776,7 +776,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   visibility: visible; }
 
 .title-with-bg {
-  font-size: clamp(15px, 2vw, 50px);
+  font-size: clamp(12px, 2vw, 50px);
   color: #e2e606;
   line-height: 1.2;
   margin-bottom: 30px;
@@ -796,7 +796,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     box-shadow: 0.5em 0 0 #5c9c3c, -0.5em 0 0 #5c9c3c; }
   @media (max-width: 991.98px) {
     .title-with-bg {
-      font-size: clamp(15px, 2vw, 40px); } }
+      font-size: clamp(12px, 2vw, 40px); } }
 
 .feature-1-wrap {
   position: relative; }
