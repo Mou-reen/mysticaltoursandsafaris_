@@ -776,7 +776,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   visibility: visible; }
 
 .title-with-bg {
-  font-size: 50px;
+  font-size: clamp(15px, 2vw, 50px);
   color: #e2e606;
   line-height: 1.2;
   margin-bottom: 30px;
@@ -796,7 +796,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     box-shadow: 0.5em 0 0 #5c9c3c, -0.5em 0 0 #5c9c3c; }
   @media (max-width: 991.98px) {
     .title-with-bg {
-      font-size: 40px; } }
+      font-size: clamp(10px, 2vw, 40px); } }
 
 .feature-1-wrap {
   position: relative; }
@@ -954,7 +954,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .custom-block {
   margin-bottom: 30px; }
   .custom-block .section-title {
-    font-size: 18px;
+    font-size: clamp(5px, 2vw, 18px);
     font-weight: 700; }
 
 .custom-accordion .accordion-item {
